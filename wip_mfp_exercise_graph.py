@@ -5,7 +5,7 @@ from calendar import monthrange
 EXER_CARDIO = 0 #constant representing cardio in exercises
 EXER_STR = 1 #constant represending strength training in exercises
 
-EXERCISE_NAME = 'Bench Press, Barbell' # exercise name
+EXERCISE_NAME = 'Bench Press, Barbell' # exercise name, for testing
 
 def calculate_1rm(weight, reps): # returns an estimated 1rm based on weight and reps
     return weight * reps * 0.0333 + weight
